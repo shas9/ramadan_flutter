@@ -16,20 +16,20 @@ class RamadanApp extends StatelessWidget {
     final customColors = const CustomColors();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: HomeScreen(),
       theme: ThemeData(
         fontFamily: 'SolaimanLipi',
         colorScheme: const ColorScheme.light().copyWith(
-          primary: customColors.blue100,
-          onPrimary: customColors.black300,
+          primary: customColors.sage,
+          onPrimary: customColors.sage,
           secondary: customColors.green200,
-          onSecondary: customColors.black300,
+          onSecondary: customColors.sage,
           tertiary: customColors.blue100,
           onTertiary: customColors.blue100,
           surface: customColors.gray60,
           outline: customColors.blue100,
-          onSurface: customColors.black300,
-          onSurfaceVariant: customColors.black300,
+          onSurface: customColors.sage,
+          onSurfaceVariant: customColors.sage,
           error: customColors.red100,
         ),
         extensions: <ThemeExtension<dynamic>>[
